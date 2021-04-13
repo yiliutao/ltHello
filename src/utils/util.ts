@@ -1,9 +1,17 @@
 //localstorage
-function setLocalItem(){}
-function getLocalItem(){}
+function setLocalItem(){
+    console.log("setLocalItem");
+}
+function getLocalItem(){
+    console.log("getLocalItem");
+}
 //sessionstorage
-function setSessionItem(){}
-function getSessionItem(){}
+function setSessionItem(){
+    console.log("setSessionItem");
+}
+function getSessionItem(){
+    console.log(getSessionItem);
+}
 
 export {
     setLocalItem,
